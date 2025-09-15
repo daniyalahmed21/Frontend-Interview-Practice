@@ -1,0 +1,15 @@
+body {
+    cursor: none; /* Hide default cursor */
+  }
+  
+  .cursor-circle {
+    position: fixed; /* Follows mouse globally */
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 123, 255, 0.5); /* Blue semi-transparent circle */
+    border-radius: 50%; /* Circular shape */
+    pointer-events: none; /* Allows clicks through */
+    z-index: 9999; /* On top */
+    transform: translate(-50%, -50%); /* Center on mouse */
+    transition: transform 0.1s ease; /* Smooth movement */
+  }
