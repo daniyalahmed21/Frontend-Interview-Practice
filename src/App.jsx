@@ -1,10 +1,10 @@
 import "./App.css";
-import CustomCursor from "./components/Custom Cursor/CustomCursor";
+import ImageSlider from "./components/imageSlider/imageSlider";
 
 function App() {
   return (
     <div>
-      <CustomCursor />;
+      <ImageSlider />;
     </div>
   );
 }

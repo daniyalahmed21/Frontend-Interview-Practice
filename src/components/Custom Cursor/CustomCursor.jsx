@@ -5,6 +5,7 @@ const CustomCursor = () => {
   const circleRef = useRef(null);
 
   const handleMouseMove = (e) => {
+    console.log(e)
     if (circleRef.current) {
       circleRef.current.style.left = `${e.clientX}px`;
       circleRef.current.style.top = `${e.clientY}px`;
